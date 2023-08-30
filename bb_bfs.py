@@ -1,16 +1,7 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 16 14:27:01 2023
-
-@author: 21pd19
-"""
-
 import heapq
-
 def knapsack_bf_bb(capacity, weights, values):
     """
     Best-First Branch-and-Bound algorithm for the 0-1 Knapsack problem.
-
     capacity: maximum weight capacity of the knapsack
     weights: list of weights of the items
     values: list of values of the items
